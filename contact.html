@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>テックスタイル株式会社 | お問い合わせ</title>
+    <link rel="stylesheet" href="static/style.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>テックスタイル株式会社</h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html">トップ</a></li>
+                    <li><a href="about.html">会社概要</a></li>
+                    <li><a href="service.html">サービス</a></li>
+                    <li><a href="contact.html">お問い合わせ</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="container">
+        <section id="contact-form">
+            <h2>お問い合わせ</h2>
+            <p>弊社へのご質問やご相談などございましたら、以下のフォームよりお気軽にお問い合わせください。</p>
+            <form action="#" method="post"> <div class="form-group">
+                    <label for="name">お名前:</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">メールアドレス:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">お問い合わせ内容:</label>
+                    <textarea id="message" name="message" rows="6" required></textarea>
+                </div>
+                <button type="submit" class="btn">送信</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 TechStyle Inc. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
